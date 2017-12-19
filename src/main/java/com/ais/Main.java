@@ -13,6 +13,8 @@ public class Main {
 		
 		gettersAndSetters.setFlag(true);
 		List<String> lista = gettersAndSetters.getStrList();
+		//Utilizar la lista definida para que no haya warnings
+		System.out.println(lista.toString());
 		System.out.println(gettersAndSetters.toString());
 		
 		GettersAndSetters gettersAndSetters2 = new GettersAndSetters(1, "hola2");
